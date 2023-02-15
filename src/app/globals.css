@@ -1,0 +1,12 @@
+:root {
+  --color-black-100: hsl(0, 0%, 2%);
+  --color-black-90: hsl(0, 0%, 12%);
+  --color-black-80: hsl(0, 0%, 18%);
+  --color-black-70: hsl(0, 0%, 23%);
+  --color-gray-100: hsl(0, 0%, 51%);
+  --color-gray-90: hsl(0, 0%, 91%);
+  --color-gray-80: hsl(0, 0%, 96%);
+  --color-white-100: hsl(0, 0%, 100%);
+  --color-primary-60: hsl(274, 82%, 60%);
+  --color-red-60: hsl(0, 100%, 66%);
+}
