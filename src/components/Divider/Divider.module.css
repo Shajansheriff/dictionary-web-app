@@ -1,0 +1,16 @@
+.divider {
+  width: 100%;
+  margin: 32px 0;
+  min-width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.divider::after {
+  border-block-start: 1px solid var(--color-gray-90);
+  content: "";
+  display: block;
+  position: relative;
+  transform: translateY(50%);
+  width: 100%;
+}
