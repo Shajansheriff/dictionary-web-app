@@ -6,9 +6,16 @@
   --color-gray-100: hsl(0, 0%, 51%);
   --color-gray-90: hsl(0, 0%, 91%);
   --color-gray-80: hsl(0, 0%, 96%);
-  --color-white-100: hsl(0, 0%, 100%);
-  --color-primary-60: hsl(274, 82%, 60%);
   --color-red-60: hsl(0, 100%, 66%);
+  --color-white-100: hsl(0, 0%, 100%);
+
+  --color-primary-60: hsl(274, 82%, 60%);
+
+  --color-surface-100: var(--color-gray-100);
+  --color-surface-90: var(--color-gray-90);
+  --color-surface-80: var(--color-gray-80);
+
+  --color-critical-60: var(--color-red-60);
 
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
@@ -16,6 +23,21 @@
   --font-size-lg: 1.25rem;
   --font-size-xl: 1.5rem;
   --font-size-big: 4rem;
+
+  --radius-md: 1rem;
+
+  --spacing-1: 0.063rem;
+  --spacing-2: 0.125rem;
+  --spacing-01: 0.25rem;
+  --spacing-02: 0.5rem;
+  --spacing-03: 0.75rem;
+  --spacing-04: 1rem;
+  --spacing-05: 1.25rem;
+  --spacing-06: 1.5rem;
+  --spacing-07: 1.75rem;
+  --spacing-08: 2rem;
+  --spacing-09: 2.25rem;
+  --spacing-10: 2.5rem;
 }
 
 body {
