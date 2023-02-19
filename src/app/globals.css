@@ -44,6 +44,8 @@
   --spacing-08: 2rem;
   --spacing-09: 2.25rem;
   --spacing-10: 2.5rem;
+
+  --border-color: var(--color-gray-90);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +56,8 @@
     --color-surface-70: var(--color-black-70);
 
     --font-color-body-01: var(--color-white-100);
+
+    --border-color: var(--color-black-70);
   }
 }
 
@@ -80,6 +84,12 @@ body {
 
 input {
   color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 h1 {
@@ -109,4 +119,8 @@ a {
   outline-offset: 2px;
   border: none;
   border-radius: var(--radius-01);
+}
+
+li::marker {
+  color: var(--color-primary-60);
 }

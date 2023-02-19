@@ -1,0 +1,32 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-10);
+}
+
+.section__header {
+  width: 100%;
+  margin: 0;
+  min-width: 100%;
+  display: flex;
+  gap: 16px;
+}
+
+.section__header::after {
+  border-block-start: 1px solid var(--border-color);
+  content: "";
+  display: block;
+  position: relative;
+  transform: translateY(50%);
+  width: 100%;
+}
+
+.section__content {
+}
+
+.section__content__title {
+  color: var(--color-gray-100);
+}
+
+.section__footer {
+}
