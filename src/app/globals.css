@@ -11,9 +11,10 @@
 
   --color-primary-60: hsl(274, 82%, 60%);
 
-  --color-surface-100: var(--color-gray-100);
-  --color-surface-90: var(--color-gray-90);
-  --color-surface-80: var(--color-gray-80);
+  --color-surface-70: var(--color-gray-100);
+  --color-surface-80: var(--color-gray-90);
+  --color-surface-90: var(--color-gray-80);
+  --color-surface-100: var(--color-white-100);
 
   --color-critical-60: var(--color-red-60);
 
@@ -23,6 +24,8 @@
   --font-size-lg: 1.25rem;
   --font-size-xl: 1.5rem;
   --font-size-big: 4rem;
+
+  --font-color-body-01: var(--color-black-100);
 
   --radius-md: 1rem;
 
@@ -40,8 +43,21 @@
   --spacing-10: 2.5rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface-100: var(--color-black-100);
+    --color-surface-90: var(--color-black-90);
+    --color-surface-80: var(--color-black-80);
+    --color-surface-70: var(--color-black-70);
+
+    --font-color-body-01: var(--color-white-100);
+  }
+}
+
 body {
   margin: 0;
+  background-color: var(--color-surface-100);
+  color: var(--font-color-body-01);
 }
 
 .container {
@@ -50,4 +66,8 @@ body {
 
 .container--center {
   margin: 0 auto;
+}
+
+input {
+  color: inherit;
 }
