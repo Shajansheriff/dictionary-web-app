@@ -1,12 +1,12 @@
 .input {
   border: none;
-  border-radius: var(--radius-md);
-  outline-color: var(--color-primary-60);
+  border-radius: var(--radius-04);
   padding: var(--spacing-05) var(--spacing-06);
   background-color: var(--color-surface-80);
   font-weight: 700;
   font-size: var(--font-size-lg);
   width: 100%;
+  box-shadow: none;
 }
 
 .input__error {
